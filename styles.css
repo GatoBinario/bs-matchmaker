@@ -21,8 +21,8 @@ body {
     1px  0   0 #000,
     1px  1px 0 #000,
     0    1px 0 #000,
-   -1px  1px 0 #000,
-   -1px  0   0 #000,
+    -1px  1px 0 #000,
+    -1px  0   0 #000,
     -1px 3px 0 #000,
     0px 3px 0 #000,
     1px 3px 0 #000;
@@ -43,12 +43,16 @@ img {
     overflow: hidden;
 }
 .header {
+    padding: 4px 10px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     background-color: #2EC5FA;
 }
 .content {
-    margin: 5px;
+    margin: 5px 12px;
+
+    display: flex;
 }
 .brawlball {
     background-color: #29B0E0;
@@ -57,10 +61,10 @@ img {
 .throphy_count {
     color: #FFD358;
 }
-.throphy_count.check {
+.check {
     color: #3beb3b;
 }
-.throphy_count.fail {
+.fail {
     color: #ff4f30;
 }
 body > .header {
@@ -70,3 +74,22 @@ body > .header {
     border: 2px solid rgb(7, 14, 17);
     justify-content: center;
 }
+
+li {
+    display: flex;
+    align-items: center;
+   
+}
+
+
+ul {
+    padding: 0px 0px;
+    margin: 0px 5px;
+    display: flex;
+}
+
+.header > .container {
+    display: flex;
+    align-items: center;
+}
+
