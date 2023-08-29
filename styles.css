@@ -74,17 +74,16 @@ span {
 
 li .brawlerIcon {
     padding: 0px;
-    margin: 0px;
-    background-color: rgb(211, 2, 2);
+    margin-right: -1px;
+    margin-left: -1px;
+    background-color: rgba(0, 255, 64, 0.342);
 }
 
-ul.brawlerComposition {
-    background-color: red;
-    
-}
+img.brawlerIcon {
 
-img.brawlerComposition {
-    margin: 0px;
+    height: 70px;
+    width: 120px;
+    object-fit: cover;
 }
 
 .game {
@@ -179,4 +178,8 @@ ul {
 
 .container.row {
     flex-direction: row;
+}
+
+.contentSection {
+    margin-bottom: 20px;
 }
