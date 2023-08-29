@@ -41,7 +41,7 @@ button {
     border-radius: 4px;
     background-color: #00d803;
 
-    padding: 6px 32px;
+    padding: 8px 40px;
     margin: 4px 0px;
 
     transform: skew(-8deg);
@@ -63,6 +63,28 @@ button.message {
 span {
     display: block;
     transform: skew(8deg);
+}
+
+.brawlerIcon {
+    border: 2px solid black;
+    width: 120px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.26);
+}
+
+li .brawlerIcon {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(211, 2, 2);
+}
+
+ul.brawlerComposition {
+    background-color: red;
+    
+}
+
+img.brawlerComposition {
+    margin: 0px;
 }
 
 .game {
@@ -87,6 +109,7 @@ span {
 .content {
     padding: 5px 12px;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
 }
 
@@ -97,6 +120,9 @@ span {
     padding: 7px 10px 12px 12px;
 }
 
+.content .container {
+    justify-content: space-between;
+}
 .brawlball {
     background-color: #29B0E0;
 }
@@ -132,6 +158,10 @@ ul {
     display: flex;
 }
 
+.container {
+    display: flex;
+}
+
 .header > .container {
     display: flex;
     align-items: center;
@@ -141,4 +171,12 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.container.column.buttons {
+    justify-content: end;
+}
+
+.container.row {
+    flex-direction: row;
 }
