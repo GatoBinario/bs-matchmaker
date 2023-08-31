@@ -107,6 +107,12 @@ img.brawlerIcon {
     justify-content: space-between;
     background-color: #2EC5FA;
 }
+.brawlball .header {
+    background-color: #2EC5FA;
+}
+.gemgrab .header {
+    background-color: #993df6;
+}
 
 .content {
     padding: 5px 12px;
@@ -118,15 +124,25 @@ img.brawlerIcon {
 .content.secondary {
     justify-content: start;
     align-items: center;
-    background-color: #259EC9;
     padding: 7px 10px 12px 12px;
+}
+
+.brawlball .content.secondary {
+    background-color: #259EC9;
+}
+.gemgrab .content.secondary {
+    background-color: #7b31c6;
 }
 
 .content .container {
     justify-content: space-between;
 }
+
 .brawlball {
     background-color: #29B0E0;
+}
+.gemgrab {
+    background-color: #8a38db;
 }
 
 .throphy_count {
